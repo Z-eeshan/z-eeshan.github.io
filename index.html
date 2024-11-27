@@ -1,388 +1,707 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Resume</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Hola</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+	<script
       src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-  </head>
-  <body id="page-top">
-    <!-- Navigation-->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
-      id="sideNav"
-    >
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Zeeshan Saeed</span>
-        <span class="d-none d-lg-block"
-          ><img
-            class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="assets/img/profile.jpg"
-            alt=""
-        /></span>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience"
-              >Experience</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education"
-              >Education</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests"
-              >Interests</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Page Content-->
-    <div class="container-fluid p-0">
-      <!-- About-->
-      <section class="resume-section" id="about">
-        <div class="resume-section-content">
-          <h1 class="mb-0">
-            Zeeshan
-            <span class="text-primary">Saeed</span>
-          </h1>
-          <div class="subheading mb-5">
-            DevOps Engineer · Empire Holding BV · Netherlands ·
 
-            <a href="mailto:contact@szeeshan.me">contact@szeeshan.me</a>
-          </div>
-          <p class="lead mb-5">
-            I started my career as a System Administrator before my graduation
-            because it got delayed when the pandemic first hit. After
-            graduating, I taught in the same university I graduated from in Lab
-            Instructor Position. During this time, I acquired Google IT Support
-            Certification. Currently, I am working in a DevOps position, where I
-            configure CI/CD processes using Gitlab, write documentation for
-            standardization purposes, automate different tasks using Ansible and
-            shell scripting, dockerized apps, and deployed them on Kubernetes.
-            In the meanwhile, I also worked with a US-based organization for
-            setting up their CI/CD process on AWS using Code Commit, Code Build,
-            Code Deploy, and Code Pipeline. Currently, I am now Certified
-            Kubernetes Administrator (CKA) and I am preparing for AWS Certified
-            SysOps Administrator certification.
-          </p>
-          <div class="social-icons">
-            <a class="social-icon" href="https://www.linkedin.com/in/szeeshan-/"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a class="social-icon" href="https://github.com/Z-eeshan"
-              ><i class="fab fa-github"></i
-            ></a>
-            <a class="social-icon" href="https://twitter.com/zeeshan_s0"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <!-- <a class="social-icon" href="https://www.facebook.com/zeeshan2511/"
-              ><i class="fab fa-facebook-f"></i
-            ></a> -->
-            <a
-              class="social-icon"
-              href="https://scholar.google.com/citations?user=MPbeazQAAAAJ&hl=en&authuser=2"
-              ><i class="fab fa-google"></i
-            ></a>
-          </div>
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
         </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Experience-->
-      <section class="resume-section" id="experience">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Experience</h2>
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">DevOps Enginner</h3>
-              <div class="subheading mb-3">
-                <a href="https://xflowresearch.com/">xFlow Research Inc</a>
-              </div>
-              <p>
-                I worked in automation team, where I automated manual
-                configurations of monitoring stacks and other deployments using
-                Ansible. Currently working with Dev Team, in API development
-                using Node/Express JS.
-              </p>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll"  href="#blog" title="blog">Blog</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="zeeshan.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Hello There</h3>
+
+                <h1>
+                    I am Zeeshan Saeed, <br>
+                    a DevOps Engineer <br>
+                    based in Peshawar, Pakistan.
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Latest Projects
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
+                    </a>
+                </div>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
+
             </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">May 2022 - Present</span>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="https://github.com/Z-eeshan"><i class="akar-icons--github-fill" aria-hidden="true"></i><span>GitHub</span></a>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/in/szeeshan-/"><i class="ri--linkedin-fill" aria-hidden="true"></i><span>LinkedIn</span></a>
+            </li>            
+            <li>
+                <a href="https://scholar.google.com/citations?user=MPbeazQAAAAJ&hl=en&authuser=2"><i class="academicons--google-scholar" aria-hidden="true"></i><span>Google</span></a>
+            </li>            
+            <li>
+                <a href="https://www.upwork.com/freelancers/~01e38b7bfd16e4bb03"><i class="simple-icons--upwork" aria-hidden="true"></i><span>Upwork</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About</h3>
+                <h1>More About Me</h1>
+                <p class="lead">Critical thinker with an extensive understanding of high-availability architecture and
+concepts. Purpose-driven professional with the capacity to be a strong team player
+and work effectively independently. Currently targeting AWS Certified Sysops Administrator.
+Having experience working in private environments as well as with Public Cloud
+providers including heavily AWS, and then GCP, Azure, and Digital Ocean. <b>CKA Certified</b></p>
             </div>
-          </div>
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">DevOps Enginner</h3>
-              <div class="subheading mb-3">
-                <a href="http://spqr.agency">SPQR Agency</a>
-              </div>
-              <p>
-                I worked here as a DevOps engineer. My day-to-day activities
-                included pipeline configurations, creating standard and
-                customized docker files, deploying apps, managing and monitoring
-                Kubernetes clusters. Shell scripting for automation of
-                repetitive tasks. Ansible automation for some tasks. VMware ESXI
-                management for creating and updating VMs in infrastructure.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Feb 2021 - Apr 2022</span>
-            </div>
-          </div>
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Lab Instructor</h3>
-              <div class="subheading mb-3">
-                <a href="http://imsciences.edu.pk"
-                  >Institute of Management Sciences</a
-                >
-              </div>
-              <p>
-                Worked as a Lab Instructor at Institute of Management Sciences,
-                Peshawar. Courses I taught there included Digital Logic Design.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Oct 2020 - Jan 2021</span>
-            </div>
-          </div>
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">System Administrator</h3>
-              <div class="subheading mb-3">
-                <a href="http://zsoft.com.pk"> ZSoft</a>
-              </div>
-              <p>
-                Configured web panels and deployed web based apps on custom VPS
-                from AWS and GCP. Setup Domains and SSL certifcates for those
-                panels and apps. Main roles were Server Management and
-                troubleshooting.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">May 2020 - Sept 2020</span>
-            </div>
-          </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Intern</h3>
-              <div class="subheading mb-3">
-                <a href="https://www.ufone.com">Ufone HQ</a>
-              </div>
-              <p>
-                I was recruited in Revenue Assurance and Fraud Management Dept.
-                I built an internal querying website for them, and automated
-                different tasks using python scripts.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Jun 2019 - Aug 2019</span>
-            </div>
-          </div>
         </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Education-->
-      <section class="resume-section" id="education">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Education</h2>
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Institute of Management Sciences</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science</div>
-              <p>GPA: 3.77</p>
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <h3>The Journey!</h3>
+
+                <p>
+
+My career journey began unexpectedly when the pandemic delayed my graduation, allowing me to start as a System Administrator before completing my degree. After graduating, I worked as a Lab Instructor at my university, where I earned the Google IT Support Certification. This experience gave me a strong foundation in both IT support and teaching.
+</p><p>
+I later transitioned into a DevOps role, where I focus on CI/CD pipeline configuration with GitLab, task automation using Ansible and shell scripting, and containerizing apps with Docker for Kubernetes deployments. I also worked with a US-based organization to set up their AWS CI/CD pipeline using CodeCommit, CodeBuild, CodeDeploy, and CodePipeline.
+</p><p>
+I’m now a Certified Kubernetes Administrator (CKA) and preparing for the AWS Certified SysOps Administrator certification. Outside of work, I enjoy baking, walking, and exploring nature—activities that help me stay creatively inspired and recharge.
+                </p>
             </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Aug 2016 - Aug 2020</span>
+
+            <div class="col-six tab-full right">
+                <h3>I've Got Some skills.</h3>
+                <ul class="skill-bars">
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>Docker and Kubernetes</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>Python </strong>
+                    </li>
+                    <li>
+                    <div class="progress percent70"><span>70%</span></div>
+                    <strong>Ansible</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>GoLang</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>Prometheus and Grafana</strong>
+                    </li>   
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>Helm</strong>
+                    </li>   
+                    <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>VMware ESXi Management</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>Bash, Groovy, YAML</strong>
+                    </li>     
+                    <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>Terraform</strong>
+                    </li>   
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>NodeJS (Express)</strong>
+                    </li>   
+                </ul>
             </div>
-          </div>
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Muğla Sıtkı Koçman University, Turkey</h3>
-              <div class="subheading mb-3">Semester Exchange Program</div>
-              <div>Computer Engineering</div>
-              <p>GPA: 3.64</p>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-six tab-full left">
+                <a href="Zeeshan_Resume.pdf" class="btn btn--primary full-width">Download My CV</a>
             </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Sept 2019 - Jan 2020</span>
+            <div class="col-six tab-full right">
+                <a href="https://www.upwork.com/freelancers/~01e38b7bfd16e4bb03" class="btn full-width">Hire Me Now</a>
             </div>
-          </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Peshawar Model Degree College</h3>
-              <div class="subheading mb-3">Pre-Engineering</div>
+
+        </div> <!-- end about-content buttons -->
+
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>My Work Experience.</h3>
             </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Jun 2014 - Jun 2016</span>
+
+            <div class="col-six tab-full left">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Dec 2022 - Present</p>
+                            <h3>Afiniti</h3>
+                            <h5>Senior DevOps/PLatform Engineer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p> 
+Developed a GO API for seamless cloud deployment, using Terraform to deploy Kubernetes clusters across providers and Helm for microservices deployment. Enabled single-click deployment with validation, migrations, and user access. <br>
+
+Created a Python-based CLI deployment manager, allowing offline deployment on multiple VM architectures and Linux OSes. <br>
+
+Built Jenkins/Groovy CI/CD pipelines and GitOps-based pipelines for infrastructure deployment on a private cloud. <br> Led Kubernetes cluster documentation and deployment, enhancing in-house development with Rancher UIs and enabling legacy app migration to Kubernetes, including shared memory support. <br> Automated daily workloads with scripts, optimizing pipeline build times and integrating SonarQube for code scanning to improve the developer experience.
+				</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">May 2022 - Nov 2022</p>
+                            <h3>xFlow Research Inc.</h3>
+                            <h5>Senior Engineer</h5>
+                        </div>
+                        <div class="timeline__desc">	
+                            <p>
+                            Built scalable REST APIs in Node.js/Express, integrating open-source and third-party tools.<br> Developed parallel task APIs to optimize multi-core CPU usage, and conducted stress tests with Artillery to eliminate performance bottlenecks. <br>Implemented JWT authentication for enhanced security. <br> Exported logs to Prometheus via Promtail and integrated Grafana dashboards for performance monitoring. <br>
+                            Automated monitoring stack configurations with Ansible for consistent setups.<br> </p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
+
+            <div class="col-six tab-full right">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Feb 2021 - Apr 2022</p>
+                            <h3>Tungsten Software Services</h3>
+                            <h5>DevOps Engineer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+Managed Rancher-based Kubernetes clusters for development and production, using GitLab CI/CD pipelines for automated builds, tests, and deployments.  <br>Deployed and managed EKS clusters on AWS with ekstcl and GitOps via GitHub for client projects. <br> Administered infrastructure with VMware ESXi, Ansible, and Terraform, and configured production databases with read replicas and backups. <br>Migrated company infrastructure from AWS to on-prem servers, minimizing downtime and resolving issues. <br> Consolidated a client's multi-cloud infrastructure (DigitalOcean, AWS, Azure) into a unified AWS solution.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">May 2020 - Sep 2020</p>
+                            <h3>zSoft</h3>
+                            <h5>System Administrator</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Set up CentOS-based VMs for deploying PHP applications and hosting MySQL databases, securing servers for
+PHP and Laravel apps with SSL and hardening measures. <br> Implemented robust database backup policies
+using open-source solutions.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
+
+        </div> <!-- end about-content timeline -->
+
+    </section> <!-- end about -->
+    
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Portfolio</h3>
+                <h1>See My Freelance Work.</h1>
+                
+                <p class="lead">High Availability and Disaster Recovery</p>
+                <p>Implemented high-availability PostgreSQL clusters with <b>repmgr</b> in a master-slave architecture. Automated backup processes and disaster recovery using AWS Backup services and custom scripts, ensuring robust data protection and rapid recovery across various use cases.</p>
+<p class="lead">API Development</p> <p>Developed a Node.js API to manage PostgreSQL database access, providing endpoints for CRUD operations and enabling parallel processing for improved performance.</p>
+<p class="lead">Infrastructure Migration</p><p>Led seamless infrastructure migrations from AWS to GCP, utilizing <b>Terraform</b> and <b>Ansible</b> to automate and streamline the process, ensuring minimal downtime and smooth transitions.</p>
+<p class="lead">Security and Development</p><p> Configured <b>OpenVPN</b> within VPCs to enhance security for in-house development, ensuring secure access to internal resources.</p>
+<p class="lead">Kubernetes Cluster Repair</p><p> Recovered a critical Kubernetes cluster by repairing broken components caused by internal certificate expiry, safeguarding crucial data and ensuring system continuity.</p>
+<p class="lead">Cloud Platform Utilization</p><p>Optimized cloud infrastructure by utilizing <b>DigitalOcean</b> databases with backups, <b>Kubernetes</b> clusters for container orchestration, and application deployment via GitHub CI/CD and the DigitalOcean App Platform for seamless application delivery.</p>
+<p class="lead">AWS Infrastructure Utilization</p><p>Leveraged AWS services including <b>VPCs</b>, <b>CloudFront</b>, <b>Block Storage</b>, and <b>WAF</b> to host a production website, ensuring high availability, scalability, and security with caching for improved performance. </p>
+<p class="lead">Website Performance Optimization</p><p>Reduced frontend load times for a WordPress site from 30 seconds to just <b>2-3 seconds </b> by configuring AWS CloudFront for faster content delivery and improved user experience.</p>
             </div>
-          </div>
         </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Skills-->
-      <section class="resume-section" id="skills">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Skills</h2>
-          <div class="subheading mb-3">Programming Languages & Tools</div>
-          <ul class="list-inline dev-icons">
-            <li class="list-inline-item"><i class="fab fa-linux"></i></li>
-            <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-            <li class="list-inline-item"><i class="fab fa-python"></i></li>
-            <li class="list-inline-item"><i class="fab fa-r-project"></i></li>
-            <li class="list-inline-item"><i class="fab fa-amazon"></i></li>
-          </ul>
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Docker and Kubernetes Management and Configuration
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              CI/CD Process Standarization
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              AWS Setup and Services Configuration
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Ansible and Shell Scripting Automation
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              System Administration and Security
-            </li>
-          </ul>
+	
+	
+    </section> <!-- end works -->
+
+
+
+    <!-- testimonials
+    ================================================== -->
+    <div class="s-testimonials">
+
+        <div class="overlay"></div>
+
+        <div class="row testimonials-header">
+            <div class="col-full">
+                <h1 class="h02">What People Say About Me.</h1>
+            </div>
         </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Interests-->
-      <section class="resume-section" id="interests">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Interests</h2>
-          <p>
-            Apart from being a system admin, I enjoy most of my time baking. I
-            learned to bake at the age of 12, since then I have baked cakes for
-            myself, family and friends.
-          </p>
-          <p class="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring baker, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in cybersecurity world.
-          </p>
+
+        <div class="row testimonials">
+
+            <div class="col-full testimonials__slider">
+		<div class="testimonials__slide">
+                    <img src="images/avatars/client-avatar6.png" alt="Author image" class="testimonials__avatar">
+                    <p>Zeeshan is now on his second project/milestone at DropAlley and has positioned himself as a thought leader within the organization. We think of him as any other team member sharing our passions and challenges making them his own.
+
+As an early-stage venture with very finite resources, we are forced to be agile, prepare for scale, and anticipate client security needs. Zeeshan has brought this thought leadership, innovation to problem solving, and adaptability to new technologies.
+
+As a team of former Big4 (Deloitte, EY, KPMG, PwC) consultants in technology, strategy, and risk Zeeshan not only does as well as our colleagues from those previous roles, but in most cases exceeds in his ability to problem solve truly demonstrating his ability to learn quicker than the best of the best.
+
+In my experience in the past decade I can count on one hand the number of technical experts I have genuinely enjoyed working with and Zeeshan is certainly on that hand. As our venture grows along with the challenges we look forward to Zeeshan being the Trusted Advisor to our team, customers, and partners.</p>
+                    <div class="testimonials__author h05">
+                        Steven Valdez
+                        <span> <b>Upwork Client</b></span>
+                    </div>
+                </div>
+                <div class="testimonials__slide">
+                    <img src="images/avatars/client-avatar2.png" alt="Author image" class="testimonials__avatar">
+                    <p>"Muhammad has been one of the best hires among dozens of Upwork projects. He is everything I would hope for in a tech consultant: Excellent English communication and thoroughly able to express himself, intelligent at analyzing problems and helping formulate a good path forward, and great technical skills in a variety of modern devops environments. I enthusiastically recommend him, and would hire him for any furture devops projects we have without hesitation."</p>
+                    <div class="testimonials__author h06">
+                        Nick White
+                        <span> <b>Upwork Client</b></span>
+                    </div>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/client-avatar3.png" alt="Author image" class="testimonials__avatar">
+                    <p>I cannot recommend Muhammad highly enough. He is competent, intelligent, well skilled and (perhaps most importantly) trustworthy. His advice was always rational and well founded, and he proved himself able to deliver on spec and on time. I would not hesitate to use him in the future.</p>
+                    <div class="testimonials__author h06">
+                        Fergus Partridge
+                        <span> <b>Upwork Client</b></span>
+                    </div>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/client-avatar4.png" alt="Author image" class="testimonials__avatar">
+                    <p>This guy is extremely knowledgable and creative in finding devop solutions. He saved us hundreds of dollars with Digital Ocean vs our old cloud hosting.</p>
+                    <div class="testimonials__author h06">
+                        Jonathan Keating
+                        <span> <b>Upwork Client</b></span>
+                    </div>
+                </div>
+                <div class="testimonials__slide">
+                    <img src="images/avatars/client-avatar5.png" alt="Author image" class="testimonials__avatar">
+                    <p>Zeeshan was exactly the kind of help I was looking for. Right from the start, he was one of the few freelancers that gave me recommendations with explanations of possible improvements to what I needed done. He gave me a good time estimate to get the job done and even completed early. He was an exceptional communicator and was able to setup exactly what I needed. I highly recommend Zeeshan and will certainly be going to him for future projects.</p>
+                    <div class="testimonials__author h06">
+                       Brian MacPherson
+                        <span> <b>Upwork Client</b></span>
+                    </div>
+                </div>
+                <div class="testimonials__slide">
+                    <img src="images/avatars/client-avatar6.png" alt="Author image" class="testimonials__avatar">
+                    <p>I wanted to provide this mid-point feedback on behalf of Zeeshan. I have team members at my early stage venture who work at top tech companies and Zeeshan not only keeps up with them, but he is often innovative in his research and application to solve our pressing problems. He is a great team member and is our trusted devops subject matter expert. Thanks Zeeshan!</p>
+                    <div class="testimonials__author h06">
+                       Steven Valdez
+                        <span> <b>Upwork Client</b></span>
+                    </div>
+                </div>
+                
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </div> <!-- end s-testimonials -->
+
+
+    <!-- blog
+    ================================================== -->
+    <section id="blog" class="s-blog target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Journal</h3>
+                <h1>Latest From The Blog.</h1>
+                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute. 
+                Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum 
+                ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+            </div>
         </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Awards-->
-      <section class="resume-section" id="awards">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Awards & Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              Certified Kubernetes Administrator - Cloud Native Computing
-              Foundation (CNCF)- Credential ID LF-yunrs2j7th
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              Practical Ethical Hacking, The Complete Course - Udemy
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              Google IT Support - Coursera Certification
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              Mevlana Exchange Program, Turkey - Accepted on Scholarship , 2019
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              1
-              <sup>st</sup>
-              Place - Institute of Management Sciences - Electronic Businees
-              Idea and Project Display 3.0 , 2017
-            </li>
-          </ul>
+
+        <div class="row blog-content">
+            <div class="col-full">
+
+                <div class="blog-list block-1-2 block-tab-full">
+                    <article class="col-block">
+                                
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 16, 2017</a>
+                        </div>  
+                        
+                        <h2 class="h01"><a href="blog-single.html">The 10 Golden Rules of Clean Simple Design.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
+                        </p>
+
+                        <div class="blog-cat">
+                                <a href="blog.html">Branding</a><a href="blog.html">Design</a>
+                        </div>
+
+                        
+                    </article>
+                    <article class="col-block">
+                                
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 15, 2017</a>
+                        </div>  
+                        
+                        <h2 class="h01"><a href="blog-single.html">Photography Can Improve Your Graphic Design.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
+                        </p>
+
+                        <div class="blog-cat">
+                            <a href="blog.html">Photography</a>
+                        </div>
+
+                        
+                    </article>
+                    <article class="col-block">
+                        
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 14, 2017</a>
+                        </div>
+
+                        <h2 class="h01"><a href="blog-single.html">Workspace Design Trends and Ideas.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh dolore irure esse Duis nulla sint.
+                        </p>
+
+                        <div class="blog-cat">
+                            <a href="blog.html">Branding</a><a href="blog.html">Wordpress</a>
+                        </div>
+                    </article>
+                    <article class="col-block">
+                        
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 12, 2017</a>
+                        </div>    
+                        <h2 class="h01"><a href="blog-single.html">Using Patterns in your Branding.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
+                        </p>
+
+                        <div class="blog-cat">
+                            <a href="blog.html">Design</a><a href="blog.html">Branding</a>
+                        </div>
+                    </article>
+                </div> <!-- end blog-list -->
+
+            </div> <!-- end col-full -->
+        </div> <!-- end blog-content -->
+
+    </section> <!-- end s-blog -->
+
+
+    <!-- s-cta
+    ================================================== -->
+    
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="stats" class="s-stats">
+        <div class="row block-1-3 block-tab-1-2 block-mob-full stats">
+
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    150
+                </div>
+                <h4>Cups of Coffee</h4>
+            </div>
+            <div class="col-block stats__col stats__col--highlight">
+                <div class="stats__upsign">
+                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+                <div class="stats__count">
+                    19
+                </div>
+                <h4>Projects Completed</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    19
+                </div>
+                <h4>Happy Clients</h4> 
+            </div>
+
         </div>
-      </section>
+    </section> <!-- end s-stats -->
+
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="contact" class="s-contact target-section" data-image-src="images/zeeshan-2.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h3>Contact</h3>
+                <h1>Say Hello.</h1>
+                
+                <p class="lead">
+When I'm not immersed in DevOps and cloud engineering, I love to unwind by baking, taking long walks, and exploring the beauty of nature. These activities help me recharge and keep my creativity flowing. Whether it's trying out new recipes or simply enjoying the peace of a nature trail, I find that a little time away from the screen is just as important as the work itself.<br>
+
+If you're interested in connecting or discussing new opportunities, feel free to reach out. I’m always open to sharing ideas, collaborating, and learning from others in the tech community.
+            </div>
+        </div>
+
+        <div class="row contact__main">
+            <div class="col-eight tab-full contact__form">
+                <form name="contactForm" id="contactForm" method="post" action="">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+                        
+            </div>
+            <div class="col-four tab-full contact__infos">
+                <h4 class="h06">Phone</h4>
+                <p>Mobile: +92-347-9888024
+                </p>
+
+                <h4 class="h06">Email</h4>
+                <p>contact@szeeshan.me<br>
+zs.zeeshansaeed22@gmail.com
+                </p>
+
+                <h4 class="h06">Address</h4>
+                <p>
+                Peshawar, Pakistan
+                </p>
+            </div>
+
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <div class="footer-logo">
+                    <a class="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"></a>
+                </div>
+
+                <ul class="footer-social">
+                    <li>
+                <a href="https://github.com/Z-eeshan"><i class="akar-icons--github-fill" aria-hidden="true"></i><span>GitHub</span></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/szeeshan-/"><i class="ri--linkedin-fill" aria-hidden="true"></i><span>LinkedIn</span></a>
+            </li>
+            <li>
+                <a href="https://scholar.google.com/citations?user=MPbeazQAAAAJ&hl=en&authuser=2"><i class="academicons--google-scholar" aria-hidden="true"></i><span>Google</span></a>
+            </li>
+            <li>
+                <a href="https://www.upwork.com/freelancers/~01e38b7bfd16e4bb03"><i class="simple-icons--upwork" aria-hidden="true"></i><span>Upwork</span></a>
+            </li>
+                </ul>
+                    
+            </div>
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Hola 2017</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
+                </div>
+
+                <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+        <div id="loader"></div>
     </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-  </body>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
